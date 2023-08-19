@@ -13,6 +13,7 @@
 		E8F0A51B2A8BBD0D00CF1500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F0A5192A8BBD0D00CF1500 /* LaunchScreen.storyboard */; };
 		E8F0A5252A8BC0DB00CF1500 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0A5242A8BC0DB00CF1500 /* LoginView.swift */; };
 		E8F0A5282A902F6500CF1500 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0A5272A902F6400CF1500 /* OnboardingContainerViewController.swift */; };
+		E8F0A52A2A903BEE00CF1500 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0A5292A903BEE00CF1500 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E8F0A51C2A8BBD0D00CF1500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F0A5242A8BC0DB00CF1500 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E8F0A5272A902F6400CF1500 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		E8F0A5292A903BEE00CF1500 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F0A5272A902F6400CF1500 /* OnboardingContainerViewController.swift */,
+				E8F0A5292A903BEE00CF1500 /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				E8F0A5252A8BC0DB00CF1500 /* LoginView.swift in Sources */,
 				E8F0A5132A8BBD0C00CF1500 /* LoginViewController.swift in Sources */,
+				E8F0A52A2A903BEE00CF1500 /* OnboardingViewController.swift in Sources */,
 				E8F0A50F2A8BBD0C00CF1500 /* AppDelegate.swift in Sources */,
 				E8F0A5282A902F6500CF1500 /* OnboardingContainerViewController.swift in Sources */,
 			);
