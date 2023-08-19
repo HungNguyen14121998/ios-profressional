@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E8F0A5262A902EC700CF1500 /* Onboarding */,
-				E8F0A5222A8BC03300CF1500 /* Files */,
 				E8F0A5232A8BC0AD00CF1500 /* Login */,
 				E8F0A50E2A8BBD0C00CF1500 /* AppDelegate.swift */,
+				E8F0A5222A8BC03300CF1500 /* Files */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
