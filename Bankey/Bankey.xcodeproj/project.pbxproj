@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E884C6A02A9AF06800DB4F28 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E884C69F2A9AF06800DB4F28 /* UIViewController+Utils.swift */; };
+		E884C6A22A9AF2C100DB4F28 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E884C6A12A9AF2C100DB4F28 /* MainViewController.swift */; };
 		E8B597942A979EE20068DA15 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B597932A979EE20068DA15 /* DummyViewController.swift */; };
 		E8B597972A97A6C70068DA15 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B597962A97A6C70068DA15 /* LocalState.swift */; };
 		E8F0A50F2A8BBD0C00CF1500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0A50E2A8BBD0C00CF1500 /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E884C69F2A9AF06800DB4F28 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		E884C6A12A9AF2C100DB4F28 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8B597932A979EE20068DA15 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		E8B597962A97A6C70068DA15 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		E8F0A50B2A8BBD0C00CF1500 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				E8B597962A97A6C70068DA15 /* LocalState.swift */,
+				E884C69F2A9AF06800DB4F28 /* UIViewController+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -70,11 +75,12 @@
 		E8F0A50D2A8BBD0C00CF1500 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				E8B597952A97A6BE0068DA15 /* Utils */,
-				E8F0A5262A902EC700CF1500 /* Onboarding */,
-				E8F0A5232A8BC0AD00CF1500 /* Login */,
 				E8F0A50E2A8BBD0C00CF1500 /* AppDelegate.swift */,
+				E8F0A5232A8BC0AD00CF1500 /* Login */,
+				E8F0A5262A902EC700CF1500 /* Onboarding */,
+				E8B597952A97A6BE0068DA15 /* Utils */,
 				E8F0A5222A8BC03300CF1500 /* Files */,
+				E884C6A12A9AF2C100DB4F28 /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E884C6A02A9AF06800DB4F28 /* UIViewController+Utils.swift in Sources */,
 				E8F0A5252A8BC0DB00CF1500 /* LoginView.swift in Sources */,
 				E8B597972A97A6C70068DA15 /* LocalState.swift in Sources */,
 				E8B597942A979EE20068DA15 /* DummyViewController.swift in Sources */,
 				E8F0A5132A8BBD0C00CF1500 /* LoginViewController.swift in Sources */,
 				E8F0A52A2A903BEE00CF1500 /* OnboardingViewController.swift in Sources */,
+				E884C6A22A9AF2C100DB4F28 /* MainViewController.swift in Sources */,
 				E8F0A50F2A8BBD0C00CF1500 /* AppDelegate.swift in Sources */,
 				E8F0A5282A902F6500CF1500 /* OnboardingContainerViewController.swift in Sources */,
 			);
