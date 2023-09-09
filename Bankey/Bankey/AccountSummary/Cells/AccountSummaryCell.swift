@@ -64,6 +64,7 @@ extension AccountSummaryCell {
         
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        nameLabel.adjustsFontSizeToFitWidth = true
         nameLabel.text = "Account name"
         
         blanceStackView.translatesAutoresizingMaskIntoConstraints = false
@@ -72,6 +73,7 @@ extension AccountSummaryCell {
         
         blanceLabel.translatesAutoresizingMaskIntoConstraints = false
         blanceLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        blanceLabel.adjustsFontSizeToFitWidth = true
         blanceLabel.textAlignment = .right
         blanceLabel.text = "Some blance"
         
