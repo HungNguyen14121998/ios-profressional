@@ -17,6 +17,8 @@
 		E88F62482AA0D8DA00CF7C82 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F62472AA0D8DA00CF7C82 /* AccountSummaryCell.swift */; };
 		E89BF35A2AB6AD7100C1DFC5 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BF3592AB6AD7100C1DFC5 /* Date+Utils.swift */; };
 		E89BF35C2AB6C44900C1DFC5 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BF35B2AB6C44900C1DFC5 /* AccountSummaryViewController+Networking.swift */; };
+		E89BF3602AB6F4D600C1DFC5 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BF35F2AB6F4D600C1DFC5 /* ProfileTests.swift */; };
+		E89BF3622AB6F59D00C1DFC5 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89BF3612AB6F59D00C1DFC5 /* AccountTests.swift */; };
 		E8A71D692AAC2F4C00005D3E /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A71D682AAC2F4C00005D3E /* NSNotificationName.swift */; };
 		E8A71D6B2AAC38FF00005D3E /* UITextfield+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A71D6A2AAC38FF00005D3E /* UITextfield+SecureToggle.swift */; };
 		E8B597942A979EE20068DA15 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B597932A979EE20068DA15 /* DummyViewController.swift */; };
@@ -53,6 +55,8 @@
 		E88F62472AA0D8DA00CF7C82 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		E89BF3592AB6AD7100C1DFC5 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		E89BF35B2AB6C44900C1DFC5 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		E89BF35F2AB6F4D600C1DFC5 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		E89BF3612AB6F59D00C1DFC5 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		E8A71D682AAC2F4C00005D3E /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		E8A71D6A2AAC38FF00005D3E /* UITextfield+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+SecureToggle.swift"; sourceTree = "<group>"; };
 		E8B597932A979EE20068DA15 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,23 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		E89BF35D2AB6F3BB00C1DFC5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6E0C62AA5891700800F49 /* CurrencyFomatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E89BF35E2AB6F3CE00C1DFC5 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				E89BF35F2AB6F4D600C1DFC5 /* ProfileTests.swift */,
+				E89BF3612AB6F59D00C1DFC5 /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
 		E8B597952A97A6BE0068DA15 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +155,8 @@
 		E8D6E0BE2AA5884100800F49 /* BankeyUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				E8D6E0C62AA5891700800F49 /* CurrencyFomatterTests.swift */,
+				E89BF35E2AB6F3CE00C1DFC5 /* AccountSummary */,
+				E89BF35D2AB6F3BB00C1DFC5 /* Utils */,
 			);
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
@@ -312,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D6E0C72AA5891700800F49 /* CurrencyFomatterTests.swift in Sources */,
+				E89BF3622AB6F59D00C1DFC5 /* AccountTests.swift in Sources */,
+				E89BF3602AB6F4D600C1DFC5 /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
